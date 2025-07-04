@@ -62,3 +62,24 @@ Probar con curl o Postman.
 Validar respuestas.
 
 (Opcional) Integrar logs o monitoreo básico.
+
+## 📁 Estructura del Proyecto
+
+Este repositorio sigue una estructura modular para facilitar el desarrollo, entrenamiento y despliegue de un modelo de forecasting basado en datos de Google Trends.
+
+simplest_google_trends_forecast_model/
+├── data/ # Archivos de datos descargados o procesados
+├── notebooks/ # Notebooks de exploración y prototipado
+│ └── eda.ipynb
+├── model/ # Código para entrenamiento y serialización del modelo
+│ └── train_model.py
+├── api/ # Servicio FastAPI para servir el modelo
+│ └── main.py
+├── docker/ # Archivos relacionados a la construcción del contenedor
+│ └── Dockerfile
+├── gcp/ # Scripts de despliegue e infraestructura en GCP
+│ └── cloudrun_deploy.sh
+├── requirements.txt # Dependencias del proyecto
+├── .gitignore # Exclusiones de Git
+└── README.md # Documentación principal del proyecto
+
