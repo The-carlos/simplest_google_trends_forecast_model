@@ -68,6 +68,8 @@ Validar respuestas.
 Este repositorio sigue una estructura modular para facilitar el desarrollo, entrenamiento y despliegue de un modelo de forecasting basado en datos de Google Trends.
 
 simplest_google_trends_forecast_model/
+
+
 ├── data/        `Archivos de datos descargados o procesados`
 
 ├── notebooks/   `Notebooks de exploración y prototipado`
