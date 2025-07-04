@@ -69,17 +69,30 @@ Este repositorio sigue una estructura modular para facilitar el desarrollo, entr
 
 simplest_google_trends_forecast_model/
 ├── data/ # Archivos de datos descargados o procesados
+
 ├── notebooks/ # Notebooks de exploración y prototipado
+
 │ └── eda.ipynb
+
 ├── model/ # Código para entrenamiento y serialización del modelo
+
 │ └── train_model.py
+
 ├── api/ # Servicio FastAPI para servir el modelo
+
 │ └── main.py
+
 ├── docker/ # Archivos relacionados a la construcción del contenedor
+
 │ └── Dockerfile
+
 ├── gcp/ # Scripts de despliegue e infraestructura en GCP
+
 │ └── cloudrun_deploy.sh
+
 ├── requirements.txt # Dependencias del proyecto
+
 ├── .gitignore # Exclusiones de Git
+
 └── README.md # Documentación principal del proyecto
 
